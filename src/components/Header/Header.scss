@@ -1,0 +1,46 @@
+header {
+  #header{
+    background-color: #ffffff;
+    .header-container{
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      .brand{
+        display: flex;
+        align-items: center;
+        .brand-logo{
+
+        }
+        .brand-name{
+          font-size: 1.2rem;
+          font-weight: bold;
+          text-wrap: nowrap;
+          line-height: 50px;
+          color: #000000;
+        }
+      }
+      .navbar{
+        .items{
+          padding: 0;
+          margin: 0;
+          .item{
+            list-style: none;
+            display: inline-block;
+            .link{
+              display: block;
+              line-height: 50px;
+              padding: 0 1rem;
+              color: #000000;
+              &:hover{
+                color: #ccc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
